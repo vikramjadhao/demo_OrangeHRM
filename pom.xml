@@ -44,6 +44,11 @@
 		</dependency>
 
 
+		<dependency>
+			<groupId>demo</groupId>
+			<artifactId>Automation_Project</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>

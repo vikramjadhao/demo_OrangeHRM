@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-17T19:35:16 IST" name="Default suite" finished-at="2024-05-17T19:35:41 IST" duration-ms="24754">
+  <suite started-at="2024-09-20T10:08:52 IST" name="Default suite" finished-at="2024-09-20T10:09:04 IST" duration-ms="11657">
     <groups>
     </groups>
-    <test started-at="2024-05-17T19:35:16 IST" name="Default test" finished-at="2024-05-17T19:35:41 IST" duration-ms="24754">
-      <class name="test_scenarios.OrangeHRM_ops">
-        <test-method signature="launchBrowser()[pri:1, instance:test_scenarios.OrangeHRM_ops@2c767a52]" started-at="2024-05-17T19:35:16 IST" name="launchBrowser" finished-at="2024-05-17T19:35:30 IST" duration-ms="13953" status="PASS">
+    <test started-at="2024-09-20T10:08:52 IST" name="Default test" finished-at="2024-09-20T10:09:04 IST" duration-ms="11657">
+      <class name="test_Cases.Sending_data_from_Excel">
+        <test-method signature="sendData()[pri:0, instance:test_Cases.Sending_data_from_Excel@1dde4cb2]" started-at="2024-09-20T10:08:52 IST" name="sendData" finished-at="2024-09-20T10:09:04 IST" duration-ms="11609" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="userLogin()[pri:2, instance:test_scenarios.OrangeHRM_ops@2c767a52]" started-at="2024-05-17T19:35:30 IST" name="userLogin" finished-at="2024-05-17T19:35:32 IST" duration-ms="2294" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userLogin -->
-        <test-method signature="navigateToSection()[pri:3, instance:test_scenarios.OrangeHRM_ops@2c767a52]" started-at="2024-05-17T19:35:32 IST" name="navigateToSection" finished-at="2024-05-17T19:35:41 IST" duration-ms="8289" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToSection -->
-        <test-method signature="assign_DepText()[pri:4, instance:test_scenarios.OrangeHRM_ops@2c767a52]" started-at="2024-05-17T19:35:41 IST" name="assign_DepText" finished-at="2024-05-17T19:35:41 IST" duration-ms="47" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assign_DepText -->
-        <test-method signature="addButton_Text()[pri:5, instance:test_scenarios.OrangeHRM_ops@2c767a52]" started-at="2024-05-17T19:35:41 IST" name="addButton_Text" finished-at="2024-05-17T19:35:41 IST" duration-ms="30" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addButton_Text -->
-        <test-method signature="addButton()[pri:6, instance:test_scenarios.OrangeHRM_ops@2c767a52]" started-at="2024-05-17T19:35:41 IST" name="addButton" finished-at="2024-05-17T19:35:41 IST" duration-ms="86" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addButton -->
-      </class> <!-- test_scenarios.OrangeHRM_ops -->
+        </test-method> <!-- sendData -->
+      </class> <!-- test_Cases.Sending_data_from_Excel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
